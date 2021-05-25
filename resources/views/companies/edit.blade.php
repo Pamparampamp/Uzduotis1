@@ -2,7 +2,7 @@
 
 @section('content')
 <br>
-<a  class="btn btn-primary" href="{{ route('Companies.index') }}">Atgal</a>
+<a  class="btn btn-primary" href="{{ route('Companies.index') }}">Back</a>
 <br>
 <br>
 
