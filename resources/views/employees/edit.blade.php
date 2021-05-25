@@ -13,12 +13,12 @@
 @method('PUT')
   <div class="mb-3">
     <label  class="form-label">First Name</label>
-    <input type="text" name="Firstname" class="form-control" >
+    <input type="text" name="Firstname" class="form-control" required >
 
   </div>
   <div class="mb-3">
     <label for="text" class="form-label">Last Name</label>
-    <input type="text" name="Lastname" class="form-control" >
+    <input type="text" name="Lastname" class="form-control" required  >
   </div>
   <div class="mb-3 ">
       <label class="form-check-label" for="text">Company_id</label>
