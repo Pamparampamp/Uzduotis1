@@ -17,7 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+// Auth::routes();
 Route::resource('Companies', App\Http\Controllers\CompanyController::class);
 Route::resource('Employees', App\Http\Controllers\EmployeeController::class);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes(['register' => false]);
